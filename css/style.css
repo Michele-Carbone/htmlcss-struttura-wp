@@ -4,7 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* generici*/
 body
 {
+    max-width: 1000px;
+    margin: 0 auto;
     background-color: white;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.common-elements{
+    width: 100%;
+    margin: 10px 0;
+}
+#intestazione{
+    background-color: darkorchid;
+    height: 60px;
 }
