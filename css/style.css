@@ -27,3 +27,7 @@ body
     background-color: darkorchid;
     height: 60px;
 }
+.main-top{
+    height: 300px;
+    background-color: olive;
+}
